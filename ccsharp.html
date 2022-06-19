@@ -1,0 +1,155 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>C/C# Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="icon" type="image/png" href="images/D.png" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<a class="logo">C/C#</a>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li class="inactive"><a href="index.html">About Me</a></li>
+							<li class="inactive"><a href="resume.html">Resume</a></li>
+							<li class="inactive"><a href="python.html">Python</a></li> 
+							<li class="active"><a href="ccsharp.html">C/C#</a></li>
+						</ul>
+						<ul class="icons">
+							<li><a href="https://www.linkedin.com/in/devin-j-lynch" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
+							<li><a href="https://www.instagram.com/devin.lynch/?hl=en" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="https://github.com/dlynch42" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+				<div id="main">
+
+					<!-- Featured Post -->
+						<section class="post">
+							<header class="major">
+								<h1>C/C# Portfolio</h1>
+								<p>Here, you can find all of my C and C# projects (continually updated with new and/or tuned projects)</p>
+						</section>
+						<!-- Posts -->
+						<section class="posts">
+							<article>
+								<header>
+									<h2>Motion Capture</h2>
+								</header>
+								<a href="#" class="image fit"><img src="images/ModelMoCap.png" alt="" /></a>
+									<p>Using OpenCV and MediaPipe in Python, I was able to get the points of a human model as it moved through a 2D video. Using the points in each frame, I coded an animation text file. 
+										Through C#, I created points in Unity based off the x, y, and z coordinates for each object given in the file. That way the points created a 3D model and moved with the corresponding frames.</p>
+									<ul class="actions special">
+										<li><a href="https://github.com/dlynch42/Motion-Capture" class="button">Full Project</a></li>
+									</ul>
+							</article>
+							<article>
+								<header>
+									<h2>Caesar's Cipher</h2>
+								</header>
+								<a class="image fit"><img src="images/CaesarsCipher.png" /></a>
+									<p>Caesar's Cipher is one of the oldest methods of encrypting a message. As an assignment in CS50, I coded a program in C that uses the same methodology as the cipher. 
+										It prompts a user for text, shifts the corresponding characters by value key (denoted when we run the program), and prints the now encrypted message.</p>
+									<ul class="actions special">
+										<li><a href="https://github.com/me50/dlynch42/blob/cs50/problems/2022/x/caesar/caesar.c" class="button">Full Project</a></li>
+									</ul>
+							</article>
+							<article>
+								<header>
+									<h2>Runoff</h2>
+								</header>
+								<a class="image fit"><img src="images/vote.webp" alt="" /></a>
+								<p>Runoff was a program designed to emulate a runoff election. I created six different functions to validate and count a vote, tabulate the votes, find the candidate with the minimum votes,
+									eliminate those candidates wiht the lowest, and print the winner or print that there was a tie.
+								</p>
+								<ul class="actions special">
+									<li><a href="https://github.com/code50/45407464/blob/main/runoff/runoff.c" class="button">Full Project</a></li>
+								</ul>
+							</article>
+							<article>
+								<header>
+									<h2>Scrabble</h2>
+								</header>
+								<a class="image fit"><img src="images/scrabble.jpg" alt="" /></a>
+								<p>This assignment tasked me with created a program that determines the winner of a short scrabble game. The program prompts two users for words adn the highest score wins.
+									To compute the score, I translated capital letters to lower letters and subtracted by 65 to get the correct ascii value. Then the score is summed up and a winner is assigned.
+								</p>
+								<ul class="actions special">
+									<li><a href="https://github.com/code50/45407464/tree/main/scrabble/scrabble.c" class="button">Full Project</a></li>
+								</ul>
+							</article>
+							<article>
+								<header>
+									<h2>Plurality</h2>
+								</header>
+								<a class="image fit"><img src="images/plurality.png" alt="" /></a>
+								<p>Similar to runoff, this is another election method but with more than one candidate selection. This program promts users for their top candidates and tallies up 
+									who has the most votes in total, not just the preferred candidate.
+								</p>
+								<ul class="actions special">
+									<li><a href="https://github.com/code50/45407464/blob/main/plurality/plurality.c" class="button">Full Project</a></li>
+								</ul>
+							</article>
+							<article>
+								<header>
+									<h2>Filter</h2>
+								</header>
+								<a class="image fit"><img src="images/OUTFILE4.bmp" alt="" /></a>
+								<p>This assignment had me program functions for a user to apply grayscale, sepia, reflection, or blur filters to their image. For grayscale, the program
+									combed through each row and column, converted the pixels to float, and found the average pixel value. Similarly for sepia, I used specific formulas
+									to get the values for sepia red, blue, and green and updated the pixel value accordingly. For the reflection, I flipped the rows to be a mirror image. 
+									To blur the image, I created a copy of the image, combed through each row and column, got the neighboring pixels, found the image value and calculated 
+									the average of neighboring pixels, then I copied those pixels into the original image.
+								</p>
+								<ul class="actions special">
+									<li><a href="https://github.com/code50/45407464/tree/main/filter-less" class="button">Full Project</a></li>
+								</ul>
+							</article>
+						</section>
+				</div>
+
+			<!-- Footer -->
+			<footer id="footer">
+				<section class="split contact">
+					<section>
+						<h3>Contact</h3>
+						<p>Please reach me at one of the social media platforms below</p>
+					</section>
+					<section>
+						<h3>Social</h3>
+						<ul class="icons alt">
+							<li><a href="https://www.linkedin.com/in/devin-j-lynch" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
+							<li><a href="https://www.instagram.com/devin.lynch/?hl=en" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="https://github.com/dlynch42" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+						</ul>
+					</section>
+				</section>
+			</footer>
+			<!-- Copyright -->
+				<div>
+				</div>
+		</div>
+
+	<!-- Scripts -->
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.scrollex.min.js"></script>
+		<script src="assets/js/jquery.scrolly.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
+
+</body>
+</html>

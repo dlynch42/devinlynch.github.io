@@ -1,0 +1,215 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Python Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="icon" type="image/png" href="images/D.png" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<a class="logo">Python</a>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li class="inactive"><a href="index.html">About Me</a></li>
+							<li class="inactive"><a href="resume.html">Resume</a></li>
+							<li class="active"><a href="python.html">Python</a></li> 
+							<li class="inactive"><a href="ccsharp.html">C/C#</a></li>
+						</ul>
+						<ul class="icons">
+							<li><a href="https://www.linkedin.com/in/devin-j-lynch" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
+							<li><a href="https://www.instagram.com/devin.lynch/?hl=en" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="https://github.com/dlynch42" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Featured Post -->
+							<section class="post">
+								<header class="major">
+									<h1>Python Portfolio</h1>
+									<p>Here, you can find all of my Python projects (continually updated with new and/or tuned projects)</p>
+							</section>
+							<!-- Posts -->
+							<section class="posts">
+								<article>
+									<header>
+										<h2>Machine Learning Classifiers</h2>
+									</header>
+									<a class="image fit"><img src="images/tree.png" /></a>
+									<p>A deeper dive from the project Simple Artifical Neurons, this project expands on the essential machine learning algorithms for classification and provides 
+										examples primarily using the library scikit-learn. First I initialized the Perceptron and Adaline models and then converted them into an algorithm for logistic regression. 
+										Next, I tracked overfitting through Regularization and then, used SVM's to classify different flowers and initialize the gradient descent version of Perceptron, Logistic Regression,
+										and SVM with a default parameter. I then used a Kernel SVM to solve linearly inseparable data and to find separating hyperplanes. Next I made a decision tree. Lastly, 
+										I implemented a K-Nearest neighbors (KNN) model using Euclidean distance metric.</p>
+									<ul class="actions special">
+										<li><a href="https://github.com/dlynch42/Machine-Learning-Classifiers/blob/main/main.py" class="button">Full Project</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<h2>Ensemble Learning</h2>
+									</header>
+									<a class="image fit"><img src="images/ensemble.png" /></a>
+									<p>This project is an introduction to combining different methods of learning algorithms, which in turn creates more accurate and reliable predictions 
+										than one single learner. I started by implementing the probability mass function and then moved onto combining classifiers by Majority Votes and implemented a Majority Vote Classifier. 
+										I used this class to make predictions based off the same Iris dataset as before and trained it on 3 different classifiers: Logistic Regression, 
+										Decision Tree Classifier, and the K-Neighbors Classifier. Next, I evaluated and tuned the Ensemble Classifier by computing ROC Curves and 
+										standardizing the training set for visual consistency of the decision tree (pictured above). Next, I conducted Bagging and built an ensemble of classifiers from bootstrap samples. 
+										Last, I used leveraged the weak learners through Adaptive Boosting.</p>
+									<ul class="actions special">
+										<li><a href="https://github.com/dlynch42/Ensemble-Learning/blob/main/main.py" class="button">Full Project</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<h2>Clustering Analysis</h2>
+									</header>
+									<a class="image fit"><img src="images/ClusterAnalysis.png" /></a>
+									<p>This project takes a look at three different clustering algortihms: K-Means Clustering, Agglomerative Hierarchical Clustering, and Density-based Spatial Clustering of Applications with Noise (DBSCAN).
+										K-Means is an unsupervised method and clusters samples into spherical shapes based on a specific number of cluster centroids. I used two performance metrics (the elbow method and silhouette analysis)
+										to quantify the quality of the clustering. Hierarchical clustering doesn't require specific number of clusters and is illustrated by a Dendrogram. This helps visualize the results.
+										The DBSCAN groups points based on the densisties of the samples and has the capability to handle outliers and identifying clusters with non-globular shapes.
+									</p>
+									<ul class="actions special">
+										<li><a href="https://github.com/dlynch42/Clustering-Analysis/blob/main/ClusterAnalysis.py" class="button">Full Project</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<h2>Multilayer Artificial Neural Network</h2>
+									</header>
+									<a class="image fit"><img src="images/MLANN.png"></a>
+									<p> Starting with a single-layer neural network structure and connecting multiple neurons together, this project dove into the basics behind a Multilayer Artificial Neural Network and was built from scratch. 
+										This specific Multilayer Perceptron (MLP) and was designed to recognize handwritten numbers from the MNIST Database of Handwritten Digits. I classified the data and implemented 
+										backpropagation to train the MLP.
+									</p>
+									<ul class="actions special">
+										<li><a href="https://github.com/dlynch42/Multilayer-Artificial-Neural-Network/blob/main/main.py" class="button">Full Project</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<h2>Regression Analysis</h2>
+									</header>
+									<a class="image fit"><img src="images/RegressionAnalysis.png" /></a>
+									<p>Primarily using Scikit-Learn, this project goes into depth on modeling linear relationships between target and response variables to make predictions on a continuous scale. 
+										First, I introduced a Gradient-Descent Linear Regression and implemented an Orinary Least Squares (OLS) Regression Model. 
+										Next, I used RANSAC as an approach to deal with the outliers in the dataset and I estimated the coefficient of the regression model. 
+										Finally, I used polynomial feature transformation and random forest regressors to model nonlinear relationships between variables. 
+									</p>
+									<ul class="actions special">
+										<li><a href="https://github.com/dlynch42/Regression-Analysis/blob/main/main.py" class="button">Full Project</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<h2>Simple Artificial Neurons</h2>
+									</header>
+									<a class="image fit"><img src="images/ArtNeuron.jpg" alt="" /></a>
+									<p>This project looks to classify flowers into two categories, 'Setosa' and 'Versicolor', based off of variables 'Sepal Length' and 'Petal Length'. I programmed two simple artifical neurons 
+										and plotted their respective decision regions. It is broken up into two sections: Perceptron and Adaline. For the perceptron, I initialized the weights and 
+										then updated the weights using a unit step function after computing the output. I used the same process for Adaline, except updated the weights using a linear activation function. 
+									</p>
+									<ul class="actions special">
+										<li><a href="https://github.com/dlynch42/Artificial-Neurons" class="button">Full Project</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<h2>Parallelizing Neural Network Training</h2>
+									</header>
+									<a class="image fit"><img src="images/parallelizing.png" alt="" /></a>
+									<p> This project aimed to introduce the TensorFlow library and convey its ability to define and train large, multilayer neural networks efficiently, 
+										as well as how the TensorFlow API can build complex ML and Neural Networking models. To start, I programmed in the low-level TF API. Next, I used 
+										TF Layers and Keras to build the multilayer neural netowrk and learned how to build these models using the APIs. 
+									</p>
+									<ul class="actions special">
+										<li><a href="https://github.com/dlynch42/Parallelizing-Neural-Network-Training/blob/main/main.py" class="button">Full Project</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<h2>Equity Portfolio Optimization</h2>
+									</header>
+									<a class="image fit"><img src="images/MarcoPlot.jpg" /></a>
+									<p>Using Pandas, Numpy, Scipy, and MatPlotLib, I was able to grab a combination of 12 stock tickers' chart data, set the portfolio allocation percentage, 
+										and track the performance of both the individual stocks as well as the entire portfolio. I then plotted a Sharpe Ratio and a Marcowitz Portfolio Optimization Model to 
+										visualize the risk to return.</p>
+									<ul class="actions special">
+										<li><a href="https://github.com/dlynch42/Portfolio-Optimization/blob/main/PortfolioOptimization.py" class="button">Full Project</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<h2>Movie Review<br />
+											Classifer</h2>
+									</header>
+									<a class="image fit"><img src="images/imdb.jpg" /></a>
+									<p>Used Sentiment Analysis to build a predictor that classifies positive and negative movie reviews. Used a dataset of 50,000 reviews provided by IMDb. 
+										Uses Python's Pickle Module, SQLite, and Flask for a web application to prompt a user for a review, make a prediction, and close the application without having to reload the dataset. 
+										Real world usage of this project could include apps for spam detection or recommendaiton systems.</p>
+									<ul class="actions special">
+										<li><a href="https://github.com/dlynch42/Movie-Review-Classifier/blob/main/app.py" class="button">Full Project</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<h2>ARIMA Modeling</h2>
+									</header>
+									<a class="image fit"><img src="images/ForecastedMilkProduction.jpg" /></a>
+									<p>In my Financial Econometrics course, I learned about many different modeling methods and one of my favorite was the ARIMA model. 
+										Using my knowledge from the course and the help of the internet, I was able to model the monthly milk production in cows and plot a forecasted prediction alongside actual data. 
+										I did this by creating an ETS Plot, running an Augmented Dicky-Fuller Test, creating an Autocorrelation plot, and then making a seasonal ARIMA model.</p>
+									<ul class="actions special">
+										<li><a href="https://github.com/dlynch42/ARIMA-Modeling/blob/main/main.py" class="button">Full Project</a></li>
+									</ul>
+								</article>
+							</section>
+					</div>
+
+				<!-- Footer -->
+				<footer id="footer">
+					<section class="split contact">
+						<section>
+							<h3>Contact</h3>
+							<p>Please reach me at one of the social media platforms below</p>
+						</section>
+						<section>
+							<h3>Social</h3>
+							<ul class="icons alt">
+								<li><a href="https://www.linkedin.com/in/devin-j-lynch" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
+								<li><a href="https://www.instagram.com/devin.lynch/?hl=en" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+								<li><a href="https://github.com/dlynch42" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+							</ul>
+						</section>
+					</section>
+				</footer>
+				<!-- Copyright -->
+					<div>
+					</div>
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
