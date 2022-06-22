@@ -63,7 +63,7 @@
 									<p>Caesar's Cipher is one of the oldest methods of encrypting a message. As an assignment in CS50, I coded a program in C that uses the same methodology as the cipher. 
 										It prompts a user for text, shifts the corresponding characters by value key (denoted when we run the program), and prints the now encrypted message.</p>
 									<ul class="actions special">
-										<li><a href="https://github.com/me50/dlynch42/blob/cs50/problems/2022/x/caesar/caesar.c" class="button">Full Project</a></li>
+										<li><a href="https://github.com/me50/dlynch42/blob/cs50/problems/2022/x/caesar/caesar.c" class="button">Code</a></li>
 									</ul>
 							</article>
 							<article>
@@ -75,7 +75,7 @@
 									eliminate those candidates wiht the lowest, and print the winner or print that there was a tie.
 								</p>
 								<ul class="actions special">
-									<li><a href="https://github.com/code50/45407464/blob/main/runoff/runoff.c" class="button">Full Project</a></li>
+									<li><a href="https://github.com/code50/45407464/blob/main/runoff/runoff.c" class="button">Code</a></li>
 								</ul>
 							</article>
 							<article>
@@ -87,7 +87,7 @@
 									To compute the score, I translated capital letters to lower letters and subtracted by 65 to get the correct ascii value. Then the score is summed up and a winner is assigned.
 								</p>
 								<ul class="actions special">
-									<li><a href="https://github.com/code50/45407464/tree/main/scrabble/scrabble.c" class="button">Full Project</a></li>
+									<li><a href="https://github.com/code50/45407464/tree/main/scrabble/scrabble.c" class="button">Code</a></li>
 								</ul>
 							</article>
 							<article>
@@ -99,7 +99,19 @@
 									who has the most votes in total, not just the preferred candidate.
 								</p>
 								<ul class="actions special">
-									<li><a href="https://github.com/code50/45407464/blob/main/plurality/plurality.c" class="button">Full Project</a></li>
+									<li><a href="https://github.com/code50/45407464/blob/main/plurality/plurality.c" class="button">Code</a></li>
+								</ul>
+							</article>
+							<article>
+								<header>
+									<h2>Recover</h2>
+								</header>
+								<a class="image fit"><img src="images/recover.png" alt="" /></a>
+								<p>This assignment tasked me with making a program that recovers JPEGs from a forensic image. I opened the memory card, searched until the end of the card for the JPEG,
+									read 512 bytes into a buffer, and checked if the bytes indicated the start of a JPEG. Then the program would create an output file. 
+								</p>
+								<ul class="actions special">
+									<li><a href="https://github.com/code50/45407464/blob/main/recover/recover.c" class="button">Code</a></li>
 								</ul>
 							</article>
 							<article>
@@ -115,40 +127,37 @@
 								</p>
 								<ul class="actions special">
 									<li><a href="https://github.com/code50/45407464/tree/main/filter-less" class="button">Full Project</a></li>
-								</ul>
-							</article>
-							<article>
-								<header>
-									<h2>Recover</h2>
-								</header>
-								<a class="image fit"><img src="images/recover.png" alt="" /></a>
-								<p>This assignment tasked me with making a program that recovers JPEGs from a forensic image. I opened the memory card, searched until the end of the card for the JPEG,
-									read 512 bytes into a buffer, and checked if the bytes indicated the start of a JPEG. Then the program would create an output file. 
-								</p>
-								<ul class="actions special">
-									<li><a href="https://github.com/code50/45407464/blob/main/recover/recover.c" class="button">Full Project</a></li>
+									<li><a href="https://github.com/code50/45407464/tree/main/filter-less/helpers.c" class="button">Code</a></li>
 								</ul>
 							</article>
 							<article>
 								<header>
 									<h2>Inheritance</h2>
 								</header>
-								<a class="image fit"><img src="images/" alt="" /></a>
-								<p>
+								<a class="image fit"><img src="images/inheritance.jpeg" alt="" /></a>
+								<p>Inheritance was a lab assingment that simulates genetic inheritance of blood type. Each person has two parents and two alleles. Under the create_family function,
+									I allocated memory for a new person, set parent pointers for the current person, and assigned the current person's alleles based off the parents'. I also set up 
+									a function to set the parent pointers to null if there were no more generations to create and randomly assigned alleles. Under the free_family function, I freed the 
+									parents recursively and used free() to free the child.
 								</p>
 								<ul class="actions special">
-									<li><a hrel="https://github.com/code50/45407464/blob/main/inheritance/inheritance.c" class="button">Full Project</a></li>
+									<li><a hrel="https://github.com/code50/45407464/blob/main/inheritance/inheritance.c" class="button">Code</a></li>
 								</ul>
 							</article>
 							<article>
 								<header>
 									<h2>Speller</h2>
 								</header>
-								<a class="image fit"><img src="images/" alt="" /></a>
-								<p>
+								<a class="image fit"><img src="images/speller.png" alt="" /></a>
+								<p>Speller is a program designed to spell-check a file after loading a dictionary of words from the disk onto memory.
+									The challenge from this assignment was to implement check, hash, load, size, and unload as efficiently as possible, using a hash table. 
+									This was done in dictionary.c, where the main script, speller.c, was given and implemented the functions. I started with the function check to return 
+									if a word is in the dictionary or not. Next, hash was implemented to hash the word into a number. Load loaded the dictionary into memory and reutrned true if successful. 
+									Size returned the number of words in the dictionary if loaded. Last, unload unloaded the dictionary from memory and returned true if successful.
 								</p>
 								<ul class="actions special">
-									<li><a hrel="https://github.com/code50/45407464/blob/main/speller/speller.c" class="button">Full Project</a></li>
+									<li><a hrel="https://github.com/code50/45407464/blob/main/speller" class="button">Full Project</a></li>
+									<li><a hrel="https://github.com/code50/45407464/blob/main/speller/dictionary.c" class="button">Code</a></li>
 								</ul>
 							</article>
 							<article>
