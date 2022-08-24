@@ -124,6 +124,24 @@
 								</article>
 								<article>
 									<header>
+										<h2>Character-Level <br />
+											Language Modeling Using <br />
+											Recurrent Neural Networks</h2>
+									</header>
+									<a class="image fit"><img src="images/rnnLanguage.png" alt="" /></a>
+									<p>Built an RNN model with the input as a text document. Goal is to generate new text similar to the input document. 
+										I processed data by creating a dataset to represent unique characters, made a dictionary to map each character to an integer, and another dictionary that performed 
+										reverse mapping. I converted text to a NumPy array of integers. Then reshaped into batches of sequences and created a batch_generator function. Built a CharRNN class 
+										with a build method that used one-hot encoding instead of embedding layer, a train method, and sample method (similar to predict method in Sentiment Analysis RNN). 
+										I called a CharRNN instance to train the data, then sampled and returned a text document. The original data is in old English which makes the text a little more interesting.
+									</p>
+									<ul class="actions special">
+										<li><a href="https://github.com/dlynch42/RNN-for-Character-Level-Language-Modeling" class="button">Full Project</a></li>
+										<li><a href="https://github.com/dlynch42/RNN-for-Character-Level-Language-Modeling/blob/main/languageModeling.py" class="button">Code</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
 										<h2>Ensemble Learning</h2>
 									</header>
 									<a class="image fit"><img src="images/ensemble.png" /></a>
@@ -258,9 +276,6 @@
 									<ul class="actions special">
 										<li><a href="https://github.com/code50/45407464/blob/main/dna/dna.py" class="button">Code</a></li>
 									</ul>
-								</article>
-								<article>
-									
 								</article>
 							</section>
 					</div>
