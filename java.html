@@ -1,0 +1,125 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>HTML/CSS/JS Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="icon" type="image/png" href="images/D.png" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<a class="logo">Java</a>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li class="inactive"><a href="index.html">About Me</a></li>
+							<!-- <li class="inactive"><a href="resume.html">Resume</a></li> -->
+							<li class="inctive"><a href="python.html">Python</a></li> 
+							<li class="inactive"><a href="ccsharp.html">C/C#/C++</a></li>
+							<li class="inactive"><a href="sql.html">SQL</a></li> 
+							<li class="inactive"><a href="swift.html">Swift</a></li> 
+							<li class="active"><a href="java.html">Java</a></li> 
+						</ul>
+						<ul class="icons">
+							<li><a href="https://www.linkedin.com/in/devin-j-lynch" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
+							<li><a href="https://www.instagram.com/devin.lynch/?hl=en" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="https://github.com/dlynch42" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Featured Post -->
+							<section class="post">
+								<header class="major">
+									<h1>Java</h1>
+									<p>Here, you can find all of my Java family projects (continually updated with new and/or tuned projects)</p>
+							</section>
+							<!-- Posts -->
+							<section class="posts">
+								<article>
+									<header>
+										<h2>Simple Aged Cache</h2>
+									</header>
+									<a class="image fit"><img src="images/Lruexample.png" /></a>
+									<p>Simple Aged Cache is an assignment in my masters program that implements and tests a simple aged cache in both Java and Kotlin. 
+										I initialized the paramters clock, size, and cache. 
+										Then I moved on to both SimpleAgedCache constructors (one initialized with a specificied clock and the other with a default clock), 
+										and helper functions put(), isEmpty(), and size(). 
+										Next I worked on the ExpirableEntry class by initializing the parameters key, value, and expirationTime, initializing th constructor, 
+										and working on helper function isExpired(). getKey() and getValue() were given.
+										The implementation for Kotlin was essentially the same process. 
+										I used gradle to build the project and JUnit to test the project. 
+									</p>
+									<ul class="actions special">
+										<li><a href="https://github.com/dlynch42/simple-aged-cache" class="button">Full Project</a></li>
+										<li><a href="https://github.com/dlynch42/simple-aged-cache/blob/main/src/main/java/io/collective/SimpleAgedCache.java" class="button">Java</a></li>
+										<li><a href="https://github.com/dlynch42/simple-aged-cache/blob/main/src/main/kotlin/io/collective/SimpleAgedKache.kt" class="button">Kotlin</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<h2>Simple Blockchain</h2>
+									</header>
+									<a class="image fit"><img src="images/blockchain.png"></a>
+									<p> 
+										Simple Blockchain is an assignment in my masters program that implements a simple blockchain in Java. 
+										I revised the block class by working on the calculatedHash() function and then adding that value to the hash variable. Then I worked on the blockchain class.
+										I first declared a linked list of blocks and then worked on the isEmpty(), add(), and size() helper functions before moving onto the isValid() function. 
+										Here is where I actually implemented the blockchain by checkinging for an empty chain, checking for a chain of one, then a chain of many. 
+										I iterated through the each block to compare the current and previous hash values.
+										The supporting functions were given.
+										I used gradle to build the project and JUnit to test the project.
+									</p>
+									<ul class="actions special">
+										<li><a href="https://github.com/dlynch42/simple-blockchain" class="button">Full Project</a></li>
+										<li><a href="https://github.com/dlynch42/simple-blockchain/blob/main/src/main/java/io/collective/basic/Block.java" class="button">Block.java</a></li>
+										<li><a href="https://github.com/dlynch42/simple-blockchain/blob/main/src/main/java/io/collective/basic/BlockChain.java" class="button">BlockChain.java</a></li>
+									</ul>
+								</article>
+							</section>
+					</div>
+
+				<!-- Footer -->
+				<footer id="footer">
+					<section class="split contact">
+						<section>
+							<h3>Contact</h3>
+							<p>Please reach me at one of the social media platforms below</p>
+						</section>
+						<section>
+							<h3>Social</h3>
+							<ul class="icons alt">
+								<li><a href="https://www.linkedin.com/in/devin-j-lynch" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
+								<li><a href="https://www.instagram.com/devin.lynch/?hl=en" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+								<li><a href="https://github.com/dlynch42" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+							</ul>
+						</section>
+					</section>
+				</footer>
+				<!-- Copyright -->
+					<div>
+					</div>
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
