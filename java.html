@@ -83,6 +83,41 @@
 									</p>
 									<ul class="actions special">
 										<li><a href="https://github.com/dlynch42/simple-blockchain" class="button">Full Project</a></li>
+										<li><a href="https://github.com/dlynch42/simple-blockchain/blob/main/src/main/java/io/collective/basic/Block.java" class="button">Block</a></li>
+										<li><a href="https://github.com/dlynch42/simple-blockchain/blob/main/src/main/java/io/collective/basic/BlockChain.java" class="button">BlockChain</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<h2>Provenance</h2>
+									</header>
+									<a class="image fit"><img src="images/Provenance-Data-Collection-and-Storage-ProvChain-is-built-on-top-of-an-open-source.png"></a>
+									<p> 
+										Provenance is a common architecture used for data collection.
+										Provenance collects and stores articles from infoq.com and follows a Netflix Conductor-esque architecture. There were two main classes to work on in this project: ArticlesController and Endpoints.
+										In the ArticlesController section, I worked on the handle function to retrieve all articles using a predefined findAll() function and then retrieve only available articles using a findAvailable() function. 
+										I then used the predefined writeJSONBody to convert articles to json. 
+										In the Endpoints section, I mapped rss results to an article collection and saved the articles to the article gateway with the execute() function. Used a predefined XmlMapper to convert RSS feeds to java objects. 
+										After completing both of those sections, I scheduled work in the App class start() function, using previously defined classes and functions. 
+										To test and build, I used the given gradle commands and JUnit to test the files.
+									</p>
+									<ul class="actions special">
+										<li><a href="https://github.com/dlynch42/provenance" class="button">Full Project</a></li>
+										<li><a href="https://github.com/dlynch42/provenance/blob/main/components/articles/src/main/java/io/collective/articles/ArticlesController.java" class="button">Articles</a></li>
+										<li><a href="https://github.com/dlynch42/provenance/blob/main/components/endpoints/src/main/java/io/collective/endpoints/EndpointWorker.java" class="button">Endpoints</a></li>
+										<li><a href="https://github.com/dlynch42/provenance/blob/main/applications/provenance-server/src/main/java/io/collective/start/App.java" class="button">App</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<h2>...</h2>
+									</header>
+									<a class="image fit"><img src="images/..."></a>
+									<p> 
+										...
+									</p>
+									<ul class="actions special">
+										<li><a href="https://github.com/dlynch42/simple-blockchain" class="button">Full Project</a></li>
 										<li><a href="https://github.com/dlynch42/simple-blockchain/blob/main/src/main/java/io/collective/basic/Block.java" class="button">Block.java</a></li>
 										<li><a href="https://github.com/dlynch42/simple-blockchain/blob/main/src/main/java/io/collective/basic/BlockChain.java" class="button">BlockChain.java</a></li>
 									</ul>
