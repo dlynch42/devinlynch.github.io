@@ -89,6 +89,49 @@
 								</article>
 								<article>
 									<header>
+										<h2>Email Verifier</h2>
+									</header>
+									<a class="image fit"><img src="images/emailverifier.png"></a>
+									<p> 
+										The Email Verifier was a project that conveys how a messaging queue works. 
+										This simulates someone registering their email and getting a verification code with that email.
+										Most of the code was prebuilt and there were 4 servers we set up to run our tests. 
+										The initial instructions are on the README to run through the set up. 
+										I built test.js using k6<a href="https://k6.io/docs/get-started/running-k6/"></a>. 
+										I made the test last 30s and simulated 10 users. 
+										I then used res to create a POST request and used res to assert a 204 response. 
+										I was also tasked with running, testing, and improving benchmarks in benchmark.kt within the applications folder. 
+										I intentionally made a test of registrations per second that would fail to see a response. 
+										I also implemented a consistent hash exchange in the registration server.
+									</p>
+									<ul class="actions special">
+										<li><a href="https://github.com/dlynch42/email-verifier" class="button">Full Project</a></li>
+										<li><a href="https://github.com/dlynch42/email-verifier/blob/main/test.js" class="button">Test</a></li>
+										<li><a href="https://github.com/dlynch42/email-verifier/blob/main/applications/benchmark/bin/main/io/initialcapacity/emailverifier/benchmark/Benchmark.kt" class="button">Benchmark</a></li>
+										<li><a href="https://github.com/dlynch42/email-verifier/blob/main/applications/registration-server/src/main/kotlin/io/initialcapacity/emailverifier/registrationserver/App.kt" class="button">Server</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<h2>The Milk Problem</h2>
+									</header>
+									<a class="image fit"><img src="images/milk.png"></a>
+									<p> 
+										The Milk Problem demonstrates a common error with streaming data where one client receives the same request as another client. 
+										In the literal example, multiple grocery stores order milk and all receive the same number (131). 
+										This project represent managing product inventory and highlights the use of database transactions. 
+										Before following the README instructions, I filled in TODOs. 
+										First, I implemented a decrementBy function in ProdcutService.kt and then moved to App.kt and replaced the update function with decrementBy to improve accuracy. 
+										After completing these, the database was created and working on the server. 
+									</p>
+									<ul class="actions special">
+										<li><a href="https://github.com/dlynch42/the-milk-problem" class="button">Full Project</a></li>
+										<li><a href="https://github.com/dlynch42/the-milk-problem/blob/main/components/products/src/main/kotlin/io/milk/products/ProductService.kt" class="button">ProductService</a></li>
+										<li><a href="https://github.com/dlynch42/the-milk-problem/blob/main/applications/products-server/src/main/kotlin/io/milk/start/App.kt" class="button">App</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
 										<h2>Provenance</h2>
 									</header>
 									<a class="image fit"><img src="images/Provenance-Data-Collection-and-Storage-ProvChain-is-built-on-top-of-an-open-source.png"></a>
@@ -121,44 +164,6 @@
 									</p>
 									<ul class="actions special">
 										<li><a href="https://github.com/dlynch42/Provenance-Metrics" class="button">Full Project</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<h2>The Milk Problem</h2>
-									</header>
-									<a class="image fit"><img src="images/milk.png"></a>
-									<p> 
-										The Milk Problem demonstrates a common error with streaming data where one client receives the same request as another client. 
-										In the literal example, multiple grocery stores order milk and all receive the same number (131). 
-										This project represent managing product inventory and highlights the use of database transactions. 
-										Before following the README instructions, I filled in TODOs. 
-										First, I implemented a decrementBy function in ProdcutService.kt and then moved to App.kt and replaced the update function with decrementBy to improve accuracy. 
-										After completing these, the database was created and working on the server. 
-									</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/dlynch42/the-milk-problem" class="button">Full Project</a></li>
-										<li><a href="https://github.com/dlynch42/the-milk-problem/blob/main/components/products/src/main/kotlin/io/milk/products/ProductService.kt" class="button">ProductService</a></li>
-										<li><a href="https://github.com/dlynch42/the-milk-problem/blob/main/applications/products-server/src/main/kotlin/io/milk/start/App.kt" class="button">App</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<h2>Email Verifier</h2>
-									</header>
-									<a class="image fit"><img src="images/emailverifier.png"></a>
-									<p> 
-										The Email Verifier was a project that conveys how a messaging queue works. 
-										This simulates someone registering their email and getting a verification code with that email.
-										Most of the code was prebuilt and there were 4 servers we set up to run our tests. 
-										The initial instructions are on the README to run through the set up. 
-										I built test.js using k6<a href="https://k6.io/docs/get-started/running-k6/"></a>. 
-										I made the test last 30s and simulated 10 users. 
-										I then used res to create a POST request and used res to assert a 204 response.
-									</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/dlynch42/email-verifier" class="button">Full Project</a></li>
-										<li><a href="https://github.com/dlynch42/email-verifier/blob/main/test.js" class="button">Test</a></li>
 									</ul>
 								</article>
 							</section>
